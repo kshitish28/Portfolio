@@ -1,0 +1,128 @@
+/* Projects.css */
+
+/* Section Styles */
+.project {
+    padding: 60px 0;
+    position: relative;
+  }
+  
+  .project h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .project p {
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Tab Styles */
+  #projects-tabs .nav-pills {
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  #projects-tabs .nav-item {
+    margin-right: 15px;
+  }
+  
+  #projects-tabs .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #projects-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #projects-tabs .nav-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* Project Card Styles */
+  .project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project-card .card-body {
+    padding: 15px;
+  }
+  
+  .project-card .card-body h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .project-card .card-body p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Background Image */
+  .background-image-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: auto;
+    z-index: -1;
+    opacity: 0.3;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .background-image-right:hover {
+    opacity: 0.5;
+  }
+  
+  /* Animation */
+  .animate__fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .animate__slideInUp {
+    animation: slideInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
