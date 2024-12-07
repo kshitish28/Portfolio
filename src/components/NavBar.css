@@ -1,0 +1,6 @@
+.navbar-name {
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Make the name bold */
+    color: #fff; /* Set text color to white or any color you prefer */
+    text-transform: uppercase; /* Optional: make it uppercase */
+  }
