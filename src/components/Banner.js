@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm `} <span className="txt-rotate"><span className="wrap">{text}</span></span></h1>
-                  <p>Welcome to my portfolio! I’m Sanjana Thammaiah, an aspiring web developer eager to create user-friendly, impactful digital experiences. With a strong foundation in front-end and back-end technologies, I’m passionate about building responsive websites and applications. As a quick learner and problem solver, I’m excited to explore new challenges and grow my skills. I invite you to browse through my projects and connect with me—let’s collaborate to bring your ideas to life!</p>
+                  <p>Welcome to my portfolio! I’m Sanjana, an aspiring web developer eager to create user-friendly, impactful digital experiences. With a strong foundation in front-end and back-end technologies, I’m passionate about building responsive websites and applications. As a quick learner and problem solver, I’m excited to explore new challenges and grow my skills. I invite you to browse through my projects and connect with me—let’s collaborate to bring your ideas to life!</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

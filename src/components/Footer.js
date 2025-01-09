@@ -12,7 +12,7 @@ export const Footer = () => {
           <MailchimpForm />
           <Col size={12} sm={6}>
             {/* Use a simple span or div for the footer name */}
-            <span className="footer-name">Sanjana Thammaiah</span>
+            <span className="footer-name">Sanjana</span>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
